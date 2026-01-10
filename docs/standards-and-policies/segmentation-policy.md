@@ -28,7 +28,7 @@ VLAN membership alone does not imply access between networks.
 This policy is implemented and reflected in the following documents:
 
 - VLAN architecture and trust boundaries:  
-  [/docs/architecture/network/vlans.md](/docs/architecture/network/vlans.md)
+  [/docs/network/vlans.md](/docs/network/vlans.md)
 
 - Inter-VLAN traffic intent model:  
   [/docs/architecture/network/firewall-intent-matrix.md](/docs/architecture/network/firewall-intent-matrix.md)
