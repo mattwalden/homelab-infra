@@ -49,7 +49,7 @@ The network is designed around multiple VLANs with a **default-deny inter-VLAN p
 ➡️ [`architecture/network/vlans.md`](architecture/network/vlans.md)
 
 📄 Segmentation standards and policy:  
-➡️ [`docs/standards/segmentation-policy.md`](docs/standards/segmentation-policy.md)
+➡️ [`docs/standards-and-policies/segmentation-policy.md`](docs/standards-and-policies/segmentation-policy.md)
 
 📄 Firewall intent matrix (sanitized):  
 ➡️ [`architecture/network/firewall-intent-matrix.md`](architecture/network/firewall-intent-matrix.md)
