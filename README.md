@@ -1,9 +1,10 @@
 # Home Lab Infrastructure (Proxmox + pfSense)
 
-This repository documents my personal home lab used to practice **real-world infrastructure design, network segmentation, and system administration**.  
-The focus is on **intentional design**, **security boundaries**, and **clear documentation** rather than shortcuts.
+This repository documents my personal home lab used to practice **real-world infrastructure design, network segmentation, and system administration**.
 
-This lab is actively evolving and reflects how I approach planning, implementing, and operating infrastructure.
+The focus is on **intentional design**, **security boundaries**, and **clear documentation** rather than shortcuts or ad-hoc experimentation.
+
+This lab is actively evolving and reflects how I plan, implement, and operate infrastructure.
 
 ---
 
@@ -30,7 +31,11 @@ This lab is actively evolving and reflects how I approach planning, implementing
 
 ## Network Segmentation Overview
 
-The network is designed around multiple VLANs with a **default-deny inter-VLAN policy** and explicit allow rules based on intent.
+The network is designed around multiple VLANs with a **default-deny inter-VLAN policy**, with explicit allow rules based on documented intent.
+📄 Network architecture overview:  
+➡️ [`docs/architecture/network/`](docs/architecture/network/)
+
+
 
 ### VLAN Highlights
 - **MGMT** – Infrastructure management (Proxmox, NetBox, switches)
@@ -40,14 +45,14 @@ The network is designed around multiple VLANs with a **default-deny inter-VLAN p
 - **USERS** – Trusted user devices
 - **GUESTS** – Internet-only guest access
 
-📄 Detailed VLAN inventory:  
-➡️ [`inventory/networks/vlans.md`](inventory/networks/vlans.md)
+📄 VLAN design and purpose:  
+➡️ [`docs/architecture/network/vlans.md`](docs/architecture/network/vlans.md)
 
-📄 Segmentation design principles:  
+📄 Segmentation standards and policy:  
 ➡️ [`docs/standards/segmentation-policy.md`](docs/standards/segmentation-policy.md)
 
-📄 Planned firewall intent matrix:  
-➡️ [`inventory/networks/firewall-intent-matrix.md`](inventory/networks/firewall-intent-matrix.md)
+📄 Firewall intent matrix (sanitized):  
+➡️ [`docs/architecture/network/firewall-intent-matrix.md`](docs/architecture/network/firewall-intent-matrix.md)
 
 ---
 
@@ -63,4 +68,15 @@ The network is designed around multiple VLANs with a **default-deny inter-VLAN p
 
 ## Repository Structure (Highlights)
 
+This repository is intentionally structured to separate *why*, *rules*, and *design*:
 
+- **`docs/decisions/`**  
+  Architecture Decision Records (ADRs) explaining *why* key design choices were made.
+
+- **`docs/standards/`**  
+  Policies and standards that guide how infrastructure is designed and configured.
+
+- **`docs/architecture/`**  
+  High-level, sanitized descriptions of the lab’s structure (network segmentation, trust zones, service placement).
+
+> Note: Exact IP addresses, credentials, firewall configurations, and live system details are intentionally excluded.

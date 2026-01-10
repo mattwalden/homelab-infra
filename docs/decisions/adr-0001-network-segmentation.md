@@ -47,3 +47,19 @@ All inter-VLAN traffic is denied by default and explicitly allowed only where re
 
 ## Notes
 This decision intentionally favors **clarity and security over convenience**.
+
+## Related Artifacts
+
+This decision is implemented and reflected in the following documentation:
+
+- VLAN architecture and trust boundaries:  
+  `docs/architecture/network/vlans.md`
+
+- Inter-VLAN traffic intent and policy model:  
+  `docs/architecture/network/firewall-intent-matrix.md`
+
+These documents describe how the segmentation model defined in this ADR
+is expressed in the logical network design and enforced in practice.
+
+**Review cadence:** As-needed (network architecture changes)  
+

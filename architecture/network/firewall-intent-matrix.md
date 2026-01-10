@@ -1,4 +1,9 @@
 # Firewall Intent Matrix (Planned)
+## Purpose
+
+This matrix defines **allowed traffic intent** between VLAN trust zones.
+It is designed to be read alongside the VLAN architecture document and
+serves as the basis for firewall rule implementation.
 
 Legend:
 - ✅ Allowed (explicit rule)
@@ -17,3 +22,6 @@ Legend:
 ## Notes
 - “⚠️ Conditional” = limited to defined aliases (hosts + ports), not blanket access.
 - Logging should be enabled on default-deny inter-VLAN blocks during rollout.
+
+> This matrix is visualized in the logical network diagram.
+> See: `network-logical.md`
