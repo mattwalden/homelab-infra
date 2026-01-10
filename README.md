@@ -33,7 +33,7 @@ This lab is actively evolving and reflects how I plan, implement, and operate in
 
 The network is designed around multiple VLANs with a **default-deny inter-VLAN policy**, with explicit allow rules based on documented intent.
 📄 Network architecture overview:  
-➡️ [`docs/architecture/network/`](docs/architecture/network/)
+➡️ [`architecture/network/`](docs/architecture/network/)
 
 
 
