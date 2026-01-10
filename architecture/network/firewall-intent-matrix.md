@@ -24,5 +24,6 @@ Legend:
 - Logging should be enabled on default-deny inter-VLAN blocks during rollout.
 
 > This matrix is visualized in the logical network diagram.  
-> See: [Logical Network Diagram](docs/diagrams/network-logical.md)
+> See: [Logical Network Architecture](/docs/diagrams/network-logical.md)
+
 
