@@ -1,3 +1,4 @@
+```mermaid
 flowchart LR
   %% Zones
   MGMT["VLAN 10 MGMT (Management)"]
@@ -24,4 +25,11 @@ flowchart LR
   IOT -->|ALLOW| IOTC
 
   %% Conditional flows
-  IOT
+  IOTC -.->|COND| IOT
+  IOTC -.->|COND| SERVERS
+  MGMT -.->|COND| SERVERS
+  MGMT -.->|COND| IOTC
+
+  %% Internet access
+  FW --> WAN
+```
