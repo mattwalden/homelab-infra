@@ -23,5 +23,6 @@ Legend:
 - “⚠️ Conditional” = limited to defined aliases (hosts + ports), not blanket access.
 - Logging should be enabled on default-deny inter-VLAN blocks during rollout.
 
-> This matrix is visualized in the logical network diagram.
-> See: `network-logical.md`
+> This matrix is visualized in the logical network diagram.  
+> See: [Logical Network Diagram](network-logical.md)
+
