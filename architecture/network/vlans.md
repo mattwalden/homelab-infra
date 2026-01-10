@@ -47,4 +47,5 @@ See: [Firewall Intent Matrix](firewall-intent-matrix.md)
 See the logical network diagram for a visual representation of VLAN
 trust boundaries and permitted traffic flows.
 
-➡️ [Logical Network Architecture](homelab-infra/docs/diagrams/network-logical.md)
+➡️ [Logical Network Architecture](network-logical.md)
+
