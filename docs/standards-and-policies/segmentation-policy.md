@@ -34,5 +34,5 @@ This policy is implemented and reflected in the following documents:
   [architecture/network/firewall-intent-matrix.md](/architecture/network/firewall-intent-matrix.md)
 
 - Architectural decision for segmentation:  
-  [/docs/decisions/adr-0001-network-segmentation.md](/docs/decisions/adr-0001-network-segmentation.md)
+  [docs/decisions/adr-0001-network-segmentation.md](/docs/decisions/adr-0001-network-segmentation.md)
 
