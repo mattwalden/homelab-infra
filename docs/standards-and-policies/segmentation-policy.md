@@ -28,11 +28,11 @@ VLAN membership alone does not imply access between networks.
 This policy is implemented and reflected in the following documents:
 
 - VLAN architecture and trust boundaries:  
-  `docs/architecture/network/vlans.md`
+  [/docs/architecture/network/vlans.md](/docs/architecture/network/vlans.md)
 
 - Inter-VLAN traffic intent model:  
-  `docs/architecture/network/firewall-intent-matrix.md`
+  [/docs/architecture/network/firewall-intent-matrix.md](/docs/architecture/network/firewall-intent-matrix.md)
 
 - Architectural decision for segmentation:  
-  `docs/decisions/adr-0001-network-segmentation.md`
+  [/docs/decisions/adr-0001-network-segmentation.md](/docs/decisions/adr-0001-network-segmentation.md)
 
