@@ -46,13 +46,13 @@ The network is designed around multiple VLANs with a **default-deny inter-VLAN p
 - **GUESTS** – Internet-only guest access
 
 📄 VLAN design and purpose:  
-➡️ [`docs/architecture/network/vlans.md`](docs/architecture/network/vlans.md)
+➡️ [`architecture/network/vlans.md`](architecture/network/vlans.md)
 
 📄 Segmentation standards and policy:  
 ➡️ [`docs/standards/segmentation-policy.md`](docs/standards/segmentation-policy.md)
 
 📄 Firewall intent matrix (sanitized):  
-➡️ [`docs/architecture/network/firewall-intent-matrix.md`](docs/architecture/network/firewall-intent-matrix.md)
+➡️ [`architecture/network/firewall-intent-matrix.md`](architecture/network/firewall-intent-matrix.md)
 
 ---
 
