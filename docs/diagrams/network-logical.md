@@ -24,10 +24,4 @@ flowchart LR
   IOT -->|ALLOW| IOTC
 
   %% Conditional flows
-  IOTC -.->|COND| IOT
-  IOTC -.->|COND| SERVERS
-  MGMT -.->|COND| SERVERS
-  MGMT -.->|COND| IOTC
-
-  %% Internet access
-  FW --> WAN
+  IOT
